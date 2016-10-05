@@ -9,10 +9,14 @@ struct cadastro{
 };
 int main(){
 struct cadastro c;
-    gets("Digite o seu nome: \n", c.nome);
-    scanf("Digite sua idade: %d", &c.idade);
-    gets("Digite o sua rua: \n", c.rua);
-    scanf("Digite o numero da residencia: %d", &c.numero);
+    printf("digite seu nome: ");
+    gets(c.nome);
+    printf ("digite sua rua: ");
+    gets(c.rua);
+    printf("Digite sua idade: ");
+    scanf("%d", &c.idade);
+    printf("Digite o numero da casa ");
+    scanf("%d", &c.numero);
     system("pause");
     return 0;
 }
