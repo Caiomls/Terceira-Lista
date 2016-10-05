@@ -6,12 +6,12 @@ int distancia, distancia2;
 struct X {
   int x;
   int y;
-}
+};
 
 struct Y {
   int z;
   int w;
-}
+};
 
 int main(){
  
