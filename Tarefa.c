@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct cadrasto{
+struct cadastro{
     char nome[50];
     int idade;
     char rua[50];
     int numero;
-    
+
 };
-int main()
-{
-    struct cadastro c;
+int main(){
+struct cadastro c;
     gets("Digite o seu nome: \n", c.nome);
     scanf("Digite sua idade: %d", &c.idade);
     gets("Digite o sua rua: \n", c.rua);
