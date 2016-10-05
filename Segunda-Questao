@@ -3,13 +3,13 @@
 
 struct coordenada{
   int x;
-  int y;}
+  int y;};
 
 int main(){
 struct coordenada c;
   scanf("%d", &c.x);
   scanf("%d", &c.y);
-  
-printf("Distancia da coordenada inserida ate a origem eh %d,%d",c.x,c.y);
+
+printf("Distancia da coordenada inserida ate a origem eh (%d,%d)",c.x,c.y);
 
 return 0;}
